@@ -34,7 +34,7 @@ with col2:
     st.image(image, width=350, caption='el ratón')
 
 with st.sidebar:
-    st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
+    st.subheader("Escribe y/o selecciona texto para ser escuchado.")
     
 st.markdown(f"¿Quieres escucharlo?, copia el texto.")
 text = st.text_area("Ingrese El texto a escuchar.")
