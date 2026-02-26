@@ -30,12 +30,12 @@ st.image(image, width=350)
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
     
-st.markdown(f"Quieres escucharlo?, copia el texto")
+st.markdown(f"¿Quieres escucharlo?, copia el texto.")
 text = st.text_area("Ingrese El texto a escuchar.")
 
 tld='com'
 option_lang = st.selectbox(
-    "Selecciona el lenguaje",
+    "Selecciona el lenguaje (Te recomiendo francés)",
     ("Español", "English", "Francais"))
 if option_lang=="Español" :
     lg='es'
