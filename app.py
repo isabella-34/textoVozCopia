@@ -25,7 +25,7 @@ st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al p
         
         )
 
-col1, col2 = st.column(2)
+col1, col2 = st.columns(2)
 with col1:
     image = Image.open('gato.jpg')
     st.image(image, width=350, caption='gatito que se comió el ratón')
