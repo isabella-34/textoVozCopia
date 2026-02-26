@@ -35,7 +35,7 @@ text = st.text_area("Ingrese El texto a escuchar.")
 
 tld='com'
 option_lang = st.selectbox(
-    "Selecciona el lenguaje (Te recomiendo francés)",
+    "Selecciona el lenguaje (Te recomiendo francés pa un toque elegante)",
     ("Español", "English", "Francais"))
 if option_lang=="Español" :
     lg='es'
