@@ -3,6 +3,7 @@ import os
 import time
 import glob
 import os
+import googletrans
 from gtts import gTTS
 from PIL import Image
 import base64
