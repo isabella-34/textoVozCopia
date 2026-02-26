@@ -28,10 +28,10 @@ st.write('¡Ay! -dijo el ratón-. El mundo se hace cada día más pequeño. Al p
 col1, col2 = st.columns(2)
 with col1:
     image = Image.open('gato.jpg')
-    st.image(image, height=350, caption='gatito que se comió el ratón')
+    st.image(image, width=350, caption='gatito que se comió el ratón')
 with col2:
     image = Image.open('raton.jpg')
-    st.image(image, height=350, caption='el ratón')
+    st.image(image, width=350, caption='el ratón')
 
 with st.sidebar:
     st.subheader("Esrcibe y/o selecciona texto para ser escuchado.")
